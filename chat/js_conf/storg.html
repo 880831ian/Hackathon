@@ -1,0 +1,7 @@
+<script>
+function setmag( id,  uid , sid ,  msge ,  time){
+	var msg = {"sid":uid,"rid":sid,"mas":msge,"time":time};
+	localStorage.setItem(id,JSON.stringify(msg));
+}
+setmag(3,"1","2","hello","10:18");
+</script>
