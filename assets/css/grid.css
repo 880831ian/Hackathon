@@ -1,0 +1,49 @@
+.grid-rows{
+	display: grid;
+ 	grid-template-rows: 150px;
+	align-items: center;
+}
+
+.midden-local {
+	text-align: center;
+	font-size: 150%;
+}
+
+.midden-people {
+	text-align: center;
+	font-size: 300%;
+}
+
+.midden {
+	width: 100%;
+	text-align: center;
+}
+
+.introduction-midden { 
+	text-align: center;
+	align-items: center;
+}
+
+.introduction-img-midden{
+	display: block;
+  	margin-left: auto;
+  	margin-right: auto;
+}
+
+.overlay-landscape.active {
+  opacity: 0.85;
+  background-color: rgba(0,0,0,1);
+  z-index: 9000;
+  display: block;
+  position: fixed;
+}
+
+.overlay-landscape-modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  opacity: 0;
+  z-index: -1;
+}
